@@ -1,0 +1,43 @@
+<lasso-page dependencies=data.dependencies/>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Nodeblog login</title>
+        <lasso-head/>
+    </head>
+    <body>
+        <div class="login-content clear">
+            <div class="container">
+                <div class="row" id="login-container">
+                    <ul if(notEmpty(data.msg)) class="alert-container">
+                        <li for(m in data.msg) class="alert alert-${m.type}">
+                             ${m.content}
+                        </li>
+                    </ul>
+                    <form class="col s12" method="post">
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input  id="username" type="text" name="username">
+                          <label for="username">Username</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="password" type="password" name="password" class="validate">
+                          <label for="password">Password</label>
+                        </div>
+                      </div>
+                      <div class="row" style="text-align: center">
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Login</button>
+                      </div>
+                    </form>
+                  </div>
+            </div>
+            <div class="login-actions">
+                <a href="#"><i class="zmdi zmdi-plus"></i> <span>Register</span></a>
+                <a href="#"><i>?</i> <span>Forgot Password</span></a>
+            </div>
+        </div>
+        <lasso-body/>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "dependencies": [
+    [
+      "./public/css/materialize.min.css",
+      "./public/css/material-design-iconic-font.min.css",
+      "./public/css/media.css",
+      "./public/css/base.css",
+      "./public/js/jquery-2.1.1.min.js",
+      "./public/js/materialize.min.js",
+      "./public/js/main.js"
+    ]
+  ]
+}

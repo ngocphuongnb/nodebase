@@ -1,0 +1,23 @@
+body {
+    background: rgba(204, 204, 204, 0.07)
+}
+.login-content {
+    min-height: 100vh;
+    text-align: center;
+    background-color: #009688;
+}
+.login-content:before {
+    content: '';
+    width: 1px;
+    vertical-align: middle;
+    display: inline-block;
+}
+#login-container {
+    width: 400px;
+    margin: 30px auto;
+    background: #FFF;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.15);
+    border-radius: 2px;
+}

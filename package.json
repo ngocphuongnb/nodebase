@@ -1,0 +1,32 @@
+{
+  "name": "nodeblog",
+  "version": "1.0.0",
+  "description": "Nodejs content management system",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js -test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tetua/nodeblog"
+  },
+  "keywords": [
+    "nodejs cms",
+    "node.js cms",
+    "node js cms",
+    "node cms",
+    "cms"
+  ],
+  "author": "Nguyen Ngoc Phuong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tetua/nodeblog/issues"
+  },
+  "homepage": "https://github.com/tetua/nodeblog",
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "express": "^4.13.4",
+    "pug": "^2.0.0-alpha8",
+    "winston": "^2.2.0"
+  }
+}

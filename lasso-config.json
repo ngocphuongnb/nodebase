@@ -1,0 +1,19 @@
+{
+  "plugins": [],
+  "outputDir": "data/static",
+  "urlPrefix": "/data/static",
+  "fingerprintsEnabled": true,
+  "minify": false,
+  "resolveCssUrls": true,
+  "bundlingEnabled": false,
+  "bundles": [
+    {
+      "name": "js-main",
+      "dependencies": []
+    },
+    {
+      "name": "css-main",
+      "dependencies": []
+    }
+  ]
+}

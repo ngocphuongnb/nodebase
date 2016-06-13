@@ -1,0 +1,203 @@
+body {
+    background: rgba(204, 204, 204, 0.07);
+    font-family: arial
+}
+
+.login-content {
+    min-height: 100vh;
+    text-align: left;
+    background-color: #009688
+}
+
+.login-content:before {
+    content: '';
+    width: 1px;
+    vertical-align: middle;
+    display: inline-block
+}
+
+#login-container {
+    width: 400px;
+    margin: 30px auto;
+    background: #FFF;
+    padding: 30px 20px;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+    border-radius: 2px;
+}
+
+.login-actions a, .login-actions a span {
+    -webkit-transition: width;
+    -o-transition: width;
+    transition: width;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s
+}
+
+.login-actions a {
+    color: #fff;
+    background: rgba(255, 255, 255, .2);
+    margin: 0 1px;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    white-space: nowrap;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block
+}
+
+.login-actions a span {
+    width: 0;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 29px;
+    margin-left: -3px;
+    font-size: 0.86rem
+}
+
+.login-actions a i {
+    width: 30px;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    line-height: 30px
+}
+
+.login-actions a:hover span {
+    width: 100%
+}
+
+.login-actions a:hover {
+    width: 95px
+}
+
+.login-actions a:nth-child(2):hover {
+    width: 147px
+}
+.login-actions {
+    text-align: center;
+}
+
+.alert {
+    padding: 8px 15px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.alert-danger, .alert-info, .alert-success, .alert-warning {
+    border-color: transparent
+}
+
+.alert-danger hr, .alert-info hr, .alert-success hr, .alert-warning hr {
+    border-top-color: transparent
+}
+
+.alert h4 {
+    margin-top: 0;
+    color: inherit
+}
+
+.alert .alert-link {
+    font-weight: 700
+}
+
+.alert > p, .alert > ul {
+    margin-bottom: 0
+}
+
+.alert > p + p {
+    margin-top: 5px
+}
+
+.alert-dismissable, .alert-dismissible {
+    padding-right: 35px
+}
+
+.alert-dismissable .close, .alert-dismissible .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    color: inherit
+}
+
+.alert-success {
+    background-color: #4CAF50;
+    color: #fff
+}
+
+.alert-success .alert-link {
+    color: #e6e6e6
+}
+
+.alert-info {
+    background-color: #2196F3;
+    color: #fff
+}
+
+.alert-info .alert-link {
+    color: #e6e6e6
+}
+
+.alert-warning {
+    background-color: #FFC107;
+    color: #fff
+}
+
+.alert-warning .alert-link {
+    color: #e6e6e6
+}
+
+.alert-danger, .alert-error {
+    background-color: #F44336;
+    color: #fff
+}
+
+.alert-danger .alert-link, .alert-error .alert-link {
+    color: #e6e6e6
+}
+.alert-container {
+    margin:0 0.75rem
+}
+
+ul#nav-mobile {
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(51, 51, 51, 0.38);
+    top: 50px;
+    height: Calc(100% - 50px);
+    z-index: 5;
+    width: 240px;
+    -webkit-transition: all;
+    -o-transition: all;
+    transition: all;
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    filter: alpha(opacity=100);
+    overflow: hidden;
+}
+header, main, footer {
+    padding-left: 240px;
+}
+nav.top-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #26BFCA;
+    z-index: 1;
+}
+.side-nav.fixed a {
+    padding: 0 20px !important;
+    height: auto !important;
+    line-height: 38px !important;
+    font-size: 0.86rem;
+    min-height: auto !important;
+}

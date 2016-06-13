@@ -1,0 +1,8 @@
+nav .brand-logo {
+    background: url('../images/logo-nodeblog-white-a52b16b5.png') no-repeat;
+    background-position: center;
+    color: transparent;
+    min-width: 136px;
+    background-size: 136px;
+    padding: 0 20px;
+}

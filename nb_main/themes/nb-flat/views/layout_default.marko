@@ -1,0 +1,13 @@
+<lasso-page package-path=data.lassoPackage/>
+<!DOCTYPE html>
+<html lang="en">
+    <include('${data.view.header}') page=data.lassoPackage browser_pack=data.lassoPackage/>
+    <body>
+        <header>
+        </header>
+        <main>
+            <include('${data.view.module}', data.moduleData)/>
+        </main>
+        <include('${data.view.footer}')/>
+    </body>
+</html>
